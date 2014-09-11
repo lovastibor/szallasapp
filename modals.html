@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bootstrap 3, from LayoutIt!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+      <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+     <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/polaris/polaris.css" rel="stylesheet">
+
+
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="img/favicon.png">
+
+</head>
+
+<body>
+
+
+
+	<div class="container">
+		<div class="bg-app">
+	
+			<div class="row">
+				<div class="col-md-12">
+					<a class="btn btn-orange center" data-toggle="modal" data-target="#kincseslada">
+					 Kincseslada
+					</a>
+				</div>
+				<br>
+				<div class="col-md-12">
+					<a class="btn btn-orange center" data-toggle="modal" data-target="#login">
+					 Belépés
+					</a>
+				</div>
+				<br>
+				<div class="col-md-12">
+					<a class="btn btn-orange center" data-toggle="modal" data-target="#invite">
+					 Meghívás
+					</a>
+				</div>
+				<br>
+				<div class="col-md-12">
+					<a class="btn btn-orange center" data-toggle="modal" data-target="#invite1">
+					 Invite 1
+					</a>
+				</div>
+				<br>
+				<div class="col-md-12">
+					<a class="btn btn-orange center" data-toggle="modal" data-target="#invite2">
+					 Invite 2
+					</a>
+				</div>
+				<br>
+				<div class="col-md-12">
+					<a class="btn btn-orange center" data-toggle="modal" data-target="#invite3">
+					Invite 3
+					</a>
+				</div>
+				<br>
+				<div class="col-md-12">
+					<a class="btn btn-orange center" data-toggle="modal" data-target="#megyebadge">
+					8.5 Modal - Megye badge
+					</a>
+				</div>
+				<br>
+				<div class="col-md-12">
+					<a class="btn btn-orange center" data-toggle="modal" data-target="#profil">
+					8.6 Modal - Profil adatok
+					</a>
+				</div>
+				<br>
+				<div class="col-md-12">
+					<a class="btn btn-orange center" data-toggle="modal" data-target="#sikereskor">
+					8.7 Modal - Sikeres kör lejátszás Single Playerben
+					</a>
+				</div>
+				<br>
+				<div class="col-md-12">
+					<a class="btn btn-orange center" data-toggle="modal" data-target="#multiload">
+					8.8 Modal - Multiplayer töltődés
+					</a>
+				</div>
+				<br>
+				<div class="col-md-12">
+					<a class="btn btn-orange center" data-toggle="modal" data-target="#multiempty">
+					8.9 Modal - Multiplayer elfogyott a bátorság
+					</a>
+				</div>
+				<br>
+				<div class="col-md-12">
+					<a class="btn btn-orange center" data-toggle="modal" data-target="#level">
+					8.10 Modal - Szintlépés
+					</a>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<!-- Kincsesláda-->
+	<div class="modal fade" id="kincseslada" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Találtál egy kincsesládát, szeretnéd kinyitni?</h4>
+	      </div>
+	      <div class="modal-body">
+	      	<div class="col-md-12">
+			 	<span id="ms_timer_1"></span>
+			</div>
+		    <div class="col-md-12">
+				<img class="img-responsive center" src="img/chest.svg" />
+			</div>
+	      </div>
+	      	<div class="modal-footer">
+       			<div class="col-md-6">
+					<button class="btn btn-orange">Nem nyitom ki</button>
+				</div>
+				<div class="col-md-6">
+					<button class="btn btn-green">Kinyitom</button>
+				</div>
+     		</div>
+	    </div>
+	  </div>
+	</div>
+	<!-- login-->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Belépés</h4>
+	      </div>
+	      <div class="modal-body">
+       			<div class="col-md-12">
+	       			<div class="info">
+						Lépj be Facebook-kal, hogy ne veszítsd el a pontjaidat és megnyerhesd a kétszemélyes 4*-os wellness hétvégét!
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="index-login">
+						<button class="btn btn-facebook center"><img class="face-icon" src="img/f.png"/>Belépés Facebookal</button>
+						<div class="info">
+								Nem posztolunk a faladra semmit a külön engedélyed nélkül!
+						</div>
+					</div>
+				</div>
+
+	      </div>
+	    </div>
+	  </div>
+	</div>
+		<!-- Invite-->
+	<div class="modal fade" id="invite" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Meghívás</h4>
+	      </div>
+	      <div class="modal-body">
+		       	<div class="col-md-12">
+		       		<div class="info">
+							Ajándékozz barátodnak 10 morzsát, amivel már biztosan részt vehet a heti sorsoláson, hogy övé lehessen a kétszemélyes wellness hétvége.
+							<br><br>
+							Amennyi barátod beregisztrál az alábbi linket használva, annyiszor 3 bátorság pontot és 10 morzsát szerzel!
+							<br><br>
+							TIPP: osszad meg az alábbi linket
+							- facebookon
+							- emailben
+					</div>
+				</div>
+				<div class="col-md-12">
+					<img class="face-icon" src="img/f.png"/>
+					<input id="greeting" value="http://jatek.szallas.hu/FSAFSR3">
+				</div>
+				<br>
+				<div class="col-md-12">
+					<img class="face-icon" src="img/g.png"/>
+					<input id="greeting" value="http://jatek.szallas.hu/FSAFSR3">
+				</div>
+
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- Invite 1-->
+	<div class="modal fade" id="invite1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Meghívás</h4>
+	      </div>
+	      <div class="modal-body">
+       			<div class="col-md-12">
+					{{XY}} meghívott, így ha belépsz, akkor biztosan kapsz 1 esélyt, hogy megnyerd a heti páros 4*-os wellness hétvégét!
+				</div><br>
+				<div class="col-md-12">
+					<div class="index-login">
+						<button class="btn btn-facebook center"><img class="face-icon" src="img/f.png"/>Belépek most</button>
+						<div class="info">
+							Nem posztolunk a faladra semmit a külön engedélyed nélkül!
+						</div>
+					</div>
+				</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- Invite 2-->
+	<div class="modal fade" id="invite2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Meghívás</h4>
+	      </div>
+	      <div class="modal-body">
+       			<div class="col-md-12">
+					<form class="form-horizontal">
+						<fieldset>
+						<!-- Text input-->
+						<div class="control-group">
+						  	<label class="control-label" for="email">E-mail</label>
+	
+						    	<input id="email" name="email" type="text" placeholder="E-mail cím" class="input-medium">
+						
+						</div>
+
+						</fieldset>
+						</form>
+				<div class="alert alert-danger" role="alert">HIBAÜZENET</div>
+				Itt fogunk értesíteni, ha megnyerted a páros 4*-os wellness hétvégét!
+
+				</div>
+				<div class="col-md-12">
+					<div class="skin skin-polaris">
+						<ul class="list-modal">
+					       	<li>
+		                  		 <input tabindex="21" type="checkbox" id="polaris-checkbox-1" />
+                  				<label for="polaris-checkbox-1">Elfogadom az adatvédelmi szabályzatot!</label>
+                  				<label for="polaris-checkbox-1">Elfogadom az adatvédelmi szabályzatot!</label>
+		                	</li>
+	       				</ul>
+	       			</div>	
+        		</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- Invite 3-->
+	<div class="modal fade" id="invite3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Meghívás</h4>
+	      </div>
+	      <div class="modal-body">
+
+	   			<div class="col-md-12">
+	   				
+	   				<img src="http://placehold.it/80x80" />
+	   				<div class="info">
+					Mr Lorem Ipsum meghívása miatt, most kaptál bónusz 3 bátorságpontot is, így egyből játszhatsz a teljes játékkal!
+					</div>
+				</div>
+
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- 8.5 Modal - Megye badge-->
+	<div class="modal fade" id="megyebadge" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Megye badge</h4>
+	      </div>
+	      <div class="modal-body">
+       			<div class="col-md-12">
+       				<div class="info">
+	       				A vének tanácsába bekerültél!
+	       				<div class="modal-icon">
+							<span class="glyph-item mega" aria-hidden="true" data-icon="" data-js-prompt="&amp;#xe028;">
+						</div>
+						Mivel 3 szálláshelyet is kiválóan felismertél, ezért bekerültél a vének tanácsába, tiéd  megye kitűzője!
+
+						Gyűjtsd össze az összes megyét!
+					</div>
+				</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- 8.6 Modal - Profil adatok-->
+	<div class="modal fade" id="profil" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Profil adatok</h4>
+	      </div>
+	      <div class="modal-body">
+	      	<div class="row">
+		       			<div class="col-md-4">
+		       				<img class="img-responsive" src="http://placehold.it/100x100" />
+							
+						</div>	
+						<div class="col-md-8">	
+							<form class="form-horizontal">
+
+							<!-- Text input-->
+							<div class="control-group">
+							  <label class="control-label" for="textinput">Vezetéknév</label>
+							    <input id="textinput" name="textinput" type="text" placeholder="Vezetéknév" class="input-medium">
+							    
+							</div>
+
+							<!-- Text input-->
+							<div class="control-group">
+							  <label class="control-label" for="Keresztnev">Keresztnév</label>
+							    <input id="Keresztnev" name="Keresztnev" type="text" placeholder="Keresztnév" class="input-medium">
+							</div>
+
+							<!-- Text input-->
+							<div class="control-group">
+							  <label class="control-label" for="becenev">Becenév</label>
+							    <input id="becenev" name="becenev" type="text" placeholder="Becenév" class="input-medium">
+							</div>
+
+							<!-- Text input-->
+							<div class="control-group">
+							  <label class="control-label" for="e-mail">email</label>
+							    <input id="e-mail" name="e-mail" type="text" placeholder="e-mail" class="input-medium">
+							    <p class="help-block">itt fogunk értesíteni, ha nyersz</p>
+							</div>
+
+
+						</form>
+
+						</div>
+			</div>			
+	      </div>
+	      <div class="modal-footer">
+       			<div class="col-md-12">
+					<button class="btn btn-green">Ok</button>
+				</div>
+     		</div>
+	    </div>
+	  </div>
+	</div>
+			<!-- 8.7 Modal - Sikeres kör lejátszás Single Playerben-->
+	<div class="modal fade" id="sikereskor" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Sikeres Kör</h4>
+	      </div>
+	      <div class="modal-body">
+   			<div class="col-md-12">
+   				Sikeresen lejátszottál egy kört!
+   				<div class="modal-icon">
+					<span class="glyph-item mega" aria-hidden="true" data-icon="" data-js-prompt="&amp;#xe006;"></span>
+				</div>
+				Kaptál +X morzsát és sorsoltunk neked újra 6 kártyát!
+			</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+				<!-- 8.8 Modal - Multiplayer töltődés-->
+	<div class="modal fade" id="multiload" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Keressük a szálláshelyet, ahova Juliskával / Jancsival betérhettek.</h4>
+	      </div>
+	      <div class="modal-body">
+
+		       			<div class="col-md-12">
+							<div class="loader" title="0">
+							  <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							   width="100px" height="100px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+							  <path opacity="0.2" fill="#000" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946
+							    s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634
+							    c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"/>
+							  <path fill="#000" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0
+							    C22.32,8.481,24.301,9.057,26.013,10.047z">
+							    <animateTransform attributeType="xml"
+							      attributeName="transform"
+							      type="rotate"
+							      from="0 20 20"
+							      to="360 20 20"
+							      dur="0.5s"
+							      repeatCount="indefinite"/>
+							    </path>
+							  </svg>
+							</div>
+						</div>
+
+	      </div>
+	    </div>
+	  </div>
+	</div>
+					<!-- 8.9 Modal - Multiplayer elfogyott a bátorság-->
+	<div class="modal fade" id="multiempty" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Elfogyott az összes bátorságod, egyedül maradtatok a sötétben!</h4>
+	      </div>
+	      <div class="modal-body">
+
+		       			<div class="col-md-12">
+		       				<div class="modal-icon">
+								<span class="glyph-item mega" aria-hidden="true" data-icon="" data-js-prompt="&amp;#xe00e;"></span>
+							</div>
+							Gyűjts morzsát és bátorságot, hogy újra kereshess menedéket az este elől!
+						</div>
+
+	      </div>
+	    </div>
+	  </div>
+	</div>
+						<!-- 8.10 Modal - Szintlépés-->
+	<div class="modal fade" id="level" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Szintet léptél!</h4>
+	      </div>
+	      <div class="modal-body">
+
+		       			<div class="col-md-12">
+							<div class="modal-icon">
+								<span class="glyph-item mega" aria-hidden="true" data-icon="" data-js-prompt="&amp;#xe017;"></span>
+							</div>
+							Most már 7x több esélyed van nyerni a heti páros wellness hétvége sorsoláson!
+							Share
+						</div>
+
+	      </div>
+	    </div>
+	  </div>
+	</div>
+  <!---js scrpits-->
+
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src='js/swipe.js'></script>
+	<script type="text/javascript" src="js/icheck.js"></script>
+	<script type="text/javascript" src="js/jquery.countdownTimer.js"></script>
+	<script>
+
+</script>
+
+
+
+</body>
+</html>
